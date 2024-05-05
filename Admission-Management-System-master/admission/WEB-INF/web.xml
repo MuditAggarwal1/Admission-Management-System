@@ -1,0 +1,23 @@
+<web-app>
+  <context-param>
+    <param-name>driver</param-name>
+	<param-value>com.mysql.jdbc.Driver</param-value>
+  </context-param>
+  <context-param>
+    <param-name>url</param-name>
+	<param-value>jdbc:mysql://localhost:3307/jsravan?autoReconnect=true</param-value>
+  </context-param>
+  <context-param>
+    <param-name>user</param-name>
+	<param-value>jsravan</param-value>
+  </context-param>
+  <context-param>
+    <param-name>pswd</param-name>
+	<param-value>nopassword</param-value>
+  </context-param>
+  <context-param>
+    <param-name>path</param-name>
+	<param-value>C:/Program Files/Apache Software Foundation/Tomcat 5.5/webapps/admission/images/</param-value>
+  </context-param>
+</web-app>
+
